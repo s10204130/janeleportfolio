@@ -1,0 +1,48 @@
+*{
+    margin:10;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: #07223D;
+    background-color: #C9D1D7;
+}
+
+
+/*Homepage*/
+
+#aboutMe{
+    padding:20px;
+    display:table;
+}
+
+#abtmeTitle{
+    font-size: 30px;
+}
+#abtSection1{
+    width: 50%;
+    float:left;
+}
+
+#abtSection2{
+    display:block;
+    width:50%;
+    float:right;
+    align-content: center;
+}
+
+#home-name{
+    font-size:25px;
+}
+
+#home-tagline{
+    font-size:20px;
+}
+
+#abtSeparateWork{
+    margin:30px;
+    align-items: center;
+}
+
+#workEx{
+    padding:20px;
+}
