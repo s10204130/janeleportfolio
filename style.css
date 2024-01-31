@@ -53,14 +53,16 @@
     display:flex;
 }
 
-.indexTitle{
-    font-size: 30px;
+#personalDes{
+    font-size: 72px;
 }
 
 .abtSect{
     width: 50%;
     float:left;
-    padding: 10px; 
+    padding: 20px; 
+    padding-left: 100px;
+    align-content:center;
 }
 /*clear float after colummn*/
 .aboutMe:after{
@@ -82,12 +84,37 @@
     align-items: center;
 }
 
-#workEx{
-    padding:20px;
-}
-
 
 #resumeIMG{
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
+    padding-top:100px;
+    padding-right: 100px;
+    float:right;
+}
+
+.indexTitle{
+    font-size: 30px;
+}
+
+.workSkillsec{
+    display:flex;
+}
+
+.WScol{
+    width: 50%;
+    float:left;
+    padding: 20px; 
+    padding-left: 100px;
+    align-content:center;
+}
+
+.workSkillssect:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+#skills{
+    padding-right: 100px;
 }
