@@ -5,29 +5,25 @@
         <meta name="author" content="Lim Mei Fang Janel">
         <meta name="description" content="e-portfolio">
         <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
         
         <title>Lim_Janel_ePortfolio</title>
     </head>
     <body>
-        <header>
-            <ul class="navbar>">
-                <li><a href="index.html">Home|About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-            </ul>
-            <div class="social-media"style="float:right;">
-                <a href="https://www.linkedin.com/in/janel-lim-454b6a211/">
-                    //insert social media icon
-                </a>
-                <a href="https://www.instagram.com/notjanellim/">
-                    //insert social media icaon
-                </a>
-            </div>
-        </header>
-        <div id="aboutMe">
-            <h2 id="abtmeTitle">About Me</h2>
-            <div id="abtSection1">
-                <h2 id="home-name">Janel Lim</h2>
-                <h3 id="home-tagline">Diploma in Immersive Media</h3>
+        <!--<ul class="navbar">
+            <li class="navitem"><a href="index.html">About</a></li>
+            <li class="navitem"><a href="projects.html">Projects</a></li>
+        </ul>-->
+
+        <ul class="navbar">
+            <li class="navitem"><a href="index.html">About</a></li>
+            <li class="navitem"><a href="projects.html">Projects</a></li>
+        </ul>
+        <div class="aboutMe"><!--Row-->
+            <h2 class="indexTitle">Hello! I'm Janel Lim, an Immersive Media graduate!</h2>
+            <div class="abtSect"><!--Column-->
                 <br>
                 <p id="home-description">Hello! I am Janel, a final year student in Ngee Ann Polytechnic pursuing a diploma in Immersive Media. 
                     I am a passion driven individual who aspires to be in the field of creative design. 
@@ -35,17 +31,78 @@
                     I enjoy having the freedom of expression through all forms of design and creative art work
                 </p>
             </div>
-            <div id="abtSection2">
-                <p>insert image of self</p>
+            <div class="abtSect"><!--Column-->
+                <img src="Media/resImg.png" id="resumeIMG" style="float: right;">
             </div>
         </div>
 
-        <hr id="abtSeparateWork">
+        <hr id="Separate-Sections">
 
         <div id="workEx">
-            <h2 id="WEtitle">Work Expereience</h2>
-
+            <h2 class="indexTitle">Work Expereience</h2>
+            <div id="WEcontent"> <!--Ascott-->
+                <h3 class="WErole">Intern, Digital Experience</h3>
+                <h4 class="WEcompany">The Ascott Limited</h4>
+                <h5 class="WEduration">Sep 2023 - Jan 2024 (4 Months)</h5>
+            </div>
+            <br>
+            <div class="WEcontent"><!--BnC-->
+                <h3 class="WErole">F&B Service Worker</h3>
+                <h4 class="WEcompany">Baker & Cook</h4>
+                <h5 class="WEduration">Apr 2023 - Aug 2023 (5 Months)</h5>
+            </div>
+            <div class="WEcontent">
+                <h3 class="WErole">Retail Sales Assistant</h3>
+                <h4 class="WEcompany">Sunday Staples</h4>
+                <h5 class="WEduration">Sep 2021 - Feb 2022 (6 months)</h5>
+            </div>
         </div>
-        
+        <div id="Skills">
+            <h2 class="indexTitle">Skills</h2>
+            <div class="skillList">
+                <dl id="webexperienceSkill">
+                    <h3 class="skillTitle">Webpage Expereince Skills:</h3>
+                    <dt>Digital Content Management, Web Design, User Acceptance testing
+                        Design Principles, Responsive Web Design, 
+                    </dt>
+                </dl>
+                <dl id="ComLanSkill">
+                    <h3 class="skillTitle">Computer Language:</h3>
+                    <dt>html, css, c#, java script, python</dt>
+                </dl>
+                <dl id="softwareSkill">
+                    <h3 class="skillTitle">Softwares:</h3>
+                    <dt>Adobe Illustrator, Photoshop, XD, Premier Pro, Substance Painter, Experience Manager,
+                        Figma, Maya, Unity, Visual Studio Code
+                    </dt>
+                </dl>
+                <dl id="courseCert">
+                    <h3 class="skillTitle">Course Certification:</h3>
+                    <dt>Unity Game Developer</dt><!--Add hyperklink -->
+                </dl>
+                <dl id="Lan">
+                    <h3 class="skillTitle">Language</h3>
+                    <dt>English (written & spoken)</dt>
+                    <dt>Chinese (written & spoken)</dt>
+                </dl>
+            </div>
+        </div>
+        <br>
+        <div id="Resume">
+            <h2 class="indexTitle">Resume</h2>
+            <p id="resumesubtext">Click here for my resume!</p>
+        </div>
+        <br>
+        <footer>
+            <h1 id="FooterTitle">Janel Lim</h1>
+            <div class="footerlinks">
+                <a href="https://www.linkedin.com/in/janel-lim-454b6a211/" target="_blank" class="footerlink">
+                    LinkedIn
+                </a>
+                <a href="https://www.instagram.com/notjanellim/" target="_blank" class="footerlink">
+                    Instagram
+                </a>
+            </div>
+        </footer>
     </body>
 </html>
