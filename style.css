@@ -20,16 +20,23 @@
 /* NavBar*/
 
 .navbar{
+    padding-top: 15px;
+    padding-left:0;
+    padding-bottom: 0;
+    padding-right: 0;
     list-style-type: none;
     margin:0;
-    padding:0;
     overflow:hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .navitem{
     float:left;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
+    padding-left:100px;
+    padding-right: 100px;
 }
 
 .navitem a{
@@ -139,4 +146,30 @@
 .skillTitle{
     font-size: 20px;
     text-decoration: underline;
+}
+#Resume{
+    display:block;
+    text-align: center;
+}
+
+/*footer*/
+
+.footer{
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+
+.FooterTitle{
+    text-align: right;
+    font-size: 60px;
+    padding-right: 100px;
+}
+.footerlinks{
+    display: block;
+    float:right;
+    padding-right: 100px;
+}
+
+.SMlink{
+    padding-left: 100px;
 }
