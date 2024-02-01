@@ -48,10 +48,26 @@
 
 
 /*Footer*/
-#FooterTitle{
-    font-size:48px;
-    padding:20px;
+.footer{
+    padding-bottom: 200px;
+    padding-top: 100px;
 }
+
+.FooterTitle{
+    text-align: right;
+    font-size: 60px;
+    padding-right: 100px;
+}
+.footerlinks{
+    display: block;
+    float:right;
+    padding-right: 100px;
+}
+
+.SMlink{
+    padding-left: 100px;
+}
+
 
 
 /*Homepage*/
@@ -152,24 +168,4 @@
     text-align: center;
 }
 
-/*footer*/
 
-.footer{
-    padding-bottom: 200px;
-    padding-top: 100px;
-}
-
-.FooterTitle{
-    text-align: right;
-    font-size: 60px;
-    padding-right: 100px;
-}
-.footerlinks{
-    display: block;
-    float:right;
-    padding-right: 100px;
-}
-
-.SMlink{
-    padding-left: 100px;
-}
