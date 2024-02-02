@@ -74,7 +74,7 @@
 
 
 
-/*Homepage*/
+/*HOMEPAGE*/
 
 /*about section*/
 .aboutMe{
@@ -173,3 +173,72 @@
 }
 
 
+/* PROJECTS PAGE*/
+
+.prjTitle{
+    font-size:35px;
+}
+
+.projects-class{
+    padding: 100px 100px;
+}
+
+/*project slideshow*/
+.project-slideshow{
+    overflow:hidden;
+    max-width:600px;
+    position:relative;
+    display:block;
+    left:25%;
+}
+
+.project-slideshow .prjTitle,
+.project-slideshow .prjTitle-hidden{
+    display:none;
+}
+
+.project-slideshow .prjitem img{
+    max-width: 600px;
+    width: 100%;
+    height:auto;
+}
+
+.project-slideshow .prjitem-show{
+    display:block;
+    animation: fadeVisibility 0.5s;
+}
+
+.project-slideshow .actions{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    color:#07223D;
+}
+
+.prjBtn{
+    padding:10px 10px;
+    margin:2px 1px;
+    cursor:pointer;
+    display: inline-block;
+    color: #07223D;
+    text-align: center;
+    transition: 0.6s;
+}
+
+.prjBtn:hover{
+    background-color: rgb(50, 50, 78);
+}
+
+@keyframes fadeVisibility{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: linear;
+    }
+}
