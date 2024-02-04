@@ -114,6 +114,7 @@
 #Separate-Sections{
     margin:30px;
     align-items: center;
+    color: #07223D;
 }
 
 
@@ -252,6 +253,7 @@
 .prjLineSep{
     width:700px;
     float:left;
+    color:#07223D;
 
 }
 .projectDes{
