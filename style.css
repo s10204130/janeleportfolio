@@ -1,6 +1,5 @@
 *{
     margin:10;
-    font-size: 18px;
     text-decoration: none;
     color: #07223D;
     background-color: #C9D1D7;
@@ -114,7 +113,10 @@
 #Separate-Sections{
     margin:30px;
     align-items: center;
-    color: #07223D;
+    height:0.5px;
+    border:none;
+    background:#07223D;
+
 }
 
 
@@ -266,6 +268,74 @@
 
 #asrLink{
     text-decoration: underline;
+}
+
+/*UNIVERSAL PRJ PAGE ELEMETNS*/
+.imgtitledes{
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.imagetitle{
+    display:block;
+    margin: 20px;
+}
+.overviewText{
+    font: 500;
+    
+}
+.prjinfoTitle{
+    font-size: 25px;
+}
+.prjintro{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.prjPgIntro{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    display: flex;
+}
+
+.prjinfo_section{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.prjimgGallery{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    width:50%;
+}
+
+.prjinfo_tools{
+    padding:50px;
+}
+
+.prjpg_timeline{
+    padding:50px;
+}
+
+.prjimage{
+    padding:30px;
+}
+/*INT LABEL PRJ PAGE*/
+.prjimg_intD{
+    width:700px;
+}
+
+.prjimg_intM{
+    height:480px;
+}
+
+#ptypgextrades{
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 
