@@ -4,6 +4,7 @@
     color: #07223D;
     background-color: #C9D1D7;
     font-family: "Playfair Display", serif;
+    font-size: 20px;
 }
 /*// <uniquifier>: Use a uniquifier for the class name
 // <weight>: Use a value from 400 to 900
@@ -279,7 +280,7 @@
 
 .imagetitle{
     display:block;
-    margin: 20px;
+    margin: 30px;
 }
 .overviewText{
     font: 500;
@@ -306,24 +307,72 @@
     padding-right: 100px;
 }
 
-.prjimgGallery{
+/*.prjimgGallery{
     display: flex;
     padding-left: 100px;
     padding-right: 100px;
     width:50%;
+    align-content: center;
+}*/
+
+.prjimgGallery{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.prjimgGallery2{
+    display:inline-flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .prjinfo_tools{
-    padding:50px;
+    padding-left:50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
 }
 
 .prjpg_timeline{
+    width:200px;
+    padding: 50px;
+}
+
+.prjimelineT{
+    width:200px;
     padding:50px;
 }
 
 .prjimage{
     padding:30px;
 }
+
+.prjimage2{
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.prjimage3{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right:10px;
+}
+.prjbtn{
+    width:50px;
+    background-color: #07223D;
+    color: #C9D1D7;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+
 /*INT LABEL PRJ PAGE*/
 .prjimg_intD{
     width:700px;
@@ -338,6 +387,20 @@
     padding-right: 100px;
 }
 
+
+/*TT PRJ PAGE*/
+.downloadBtn{
+    width:50px;
+    background-color: #07223D;
+    color: #C9D1D7;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 800;
+
+}
 
 
 
