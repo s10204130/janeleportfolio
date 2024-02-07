@@ -362,12 +362,14 @@
 
 .prjimage{
     padding:30px;
+    text-align: center;
 }
 
 .prjimage2{
     padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
+    text-align: center;
 }
 
 .prjimage3{
@@ -375,6 +377,7 @@
     padding-bottom: 30px;
     padding-top: 30px;
     padding-right:10px;
+    text-align: center;
 }
 .prjbtn{
     width:50px;
